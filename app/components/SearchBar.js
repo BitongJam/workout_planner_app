@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     },
     searchContainer:{
         borderWidth: 1,
-        marginHorizontal:40,
+        marginHorizontal:20,
         marginBottom: 10,
         padding: 15,
         borderColor: colors.PRIMARY,
