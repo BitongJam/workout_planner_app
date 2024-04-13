@@ -1,0 +1,12 @@
+[
+    {"id":1,"title":"workout","workout_content":[{
+        "id":1,"exercise": "Squat","set":3,"rep":10},
+        {"id":2,"exercise": "Pull Up","set":3,"rep":10
+            }]
+    },{"id":2,"title":"workout2","workout_content":[{
+        "id":1,"exercise": "Deadlift","set":3,"rep":10},
+        {"id":2,"exercise": "Pull Up","set":3,"rep":10
+            }]
+    }
+    
+]

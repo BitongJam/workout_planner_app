@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import Header from '../components/Header'
+import WorkoutContent from '../components/WorkoutContent'
 
 const Workout = () => {
   return (
-    <View style={styles.container}>
-      <Text>Workout</Text>
-    </View>
+    <>
+      <Header title="Workout"/>
+      <WorkoutContent/>
+    </>
   )
 }
 

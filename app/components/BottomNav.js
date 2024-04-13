@@ -13,7 +13,7 @@ const Tab = createMaterialBottomTabNavigator();
 
 const BottomNav = () => {
   return (
-      <Tab.Navigator initialRouteName="Excercise" activeColor={colors.PRIMARY}
+      <Tab.Navigator initialRouteName="Workout" activeColor={colors.PRIMARY}
       inactiveColor={colors.SECONDARY}  barStyle={{ backgroundColor: colors.LIGHT }}>
         <Tab.Screen name="Workout" component={Workout}
         options={{
