@@ -3,6 +3,7 @@ import React from 'react'
 import Header from '../components/Header'
 import SearchBar from '../components/SearchBar'
 import ExcerciseContent from '../components/ExcerciseContent'
+import CircleButtonFontAwesome from '../components/CircleButtonFontAwesome'
 
 const Excercise = () => {
     return (
@@ -10,6 +11,7 @@ const Excercise = () => {
             <Header title="Exercises" />
             <SearchBar/>
             <ExcerciseContent/>
+            <CircleButtonFontAwesome style={styles.bttnAdd} color={'blue'} iconColor={'white'}/>
         </>
 
     )
@@ -22,5 +24,11 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center'
-    }
+    }, bttnAdd:{
+        position: 'absolute',
+        right: 15,
+        bottom: 30,
+        zIndex: 1,
+        
+    },
 })

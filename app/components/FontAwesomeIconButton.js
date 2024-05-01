@@ -1,6 +1,7 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faHome,faUser,faDumbbell,faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const FontAwesomeIconButton = ({onPress, size, color,icon }) => {
   return (

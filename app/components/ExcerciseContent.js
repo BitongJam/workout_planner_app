@@ -1,7 +1,10 @@
-import { FlatList, StyleSheet, Text, View, Image } from 'react-native'
+import { FlatList, StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
 import React from 'react'
 import excercise_data_sample from '../data/excercise.json'
 import colors from '../data/colors'
+import FontAwesomeIconButton from './FontAwesomeIconButton'
+import { faPlus } from '@fortawesome/free-solid-svg-icons'
+import CircleButtonFontAwesome from './CircleButtonFontAwesome'
 
 const ExcerciseContent = () => {
 
@@ -25,6 +28,9 @@ const ExcerciseContent = () => {
         renderItem={renderExcerciseItem}
         keyExtractor={item => item.id.toString()} // assuming item.id is numeric
       />
+     
+     
+   
     </View>
   )
 }
@@ -32,6 +38,7 @@ const ExcerciseContent = () => {
 export default ExcerciseContent
 
 const styles = StyleSheet.create({
+   
     container:{
         margin: 20
     },
