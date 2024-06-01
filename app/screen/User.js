@@ -1,11 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import UserContent from '../components/UserContent'
+import Header from '../components/Header'
 
 const User = () => {
   return (
-    <View  style={styles.container}>
-      <Text>User</Text>
-    </View>
+   <>
+    <Header title="User Account"/>
+    <UserContent/>
+   </>
   )
 }
 
